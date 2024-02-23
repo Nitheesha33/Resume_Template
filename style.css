@@ -1,0 +1,54 @@
+body, ul, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.resume {
+    display: flex;
+    color: #F8FAE5;
+    margin: 50px auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.resume .resume_left {
+    background-color: #B19470;
+    padding: 35px;
+    width: 270px;
+}
+
+.resume .resume_left .r_left_sub {
+    padding: 35px;
+}
+
+.resume .resume_left .r_left_sub .r_aboutme p {
+    text-align: center;
+}
+
+.resume .resume_left .r_left_sub .r_skills ul li,
+.resume .resume_left .r_left_sub .r_skills ul li p:first-child,
+.resume .resume_left .r_left_sub .r_skills ul li p:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.resume .resume_right {
+    background-color: #76453B;
+    padding: 35px;
+    width: calc(100% - 270px);
+}
+
+.resume .resume_right .r_namerole {
+    font-family: "Calligraffitti", cursive;
+    font-size: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+
+.resume .resume_right .r_namerole .role {
+    font-size: 20px;
+}
